@@ -3,7 +3,7 @@
   <department name="Engineering">
     <employee id="E001">
       <name>Alice Johnson</name>
-      <role>Senior Developer</role>
+      <role>Product Manager</role>
       <salary>95000</salary>
       <email>alice@techcorp.com</email>
       <contact>9087654378</contact>
