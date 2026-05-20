@@ -6,6 +6,7 @@
     <year>1925</year>
     <genre>Fiction</genre>
     <price>12.99</price>
+    <price>100</price>
   </book>
   <book id="2">
     <title>To Kill a Mockingbird</title>
