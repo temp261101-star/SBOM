@@ -1,0 +1,30 @@
+{
+  "warehouse": "Mumbai Central",
+  "last_updated": "2024-01-20",
+  "items": [
+    {
+      "sku": "ELEC-001",
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "quantity": 320,
+      "unit_price": 45.00,
+      "reorder_level": 50
+    },
+    {
+      "sku": "CLTH-002",
+      "name": "Cotton T-Shirt",
+      "category": "Clothing",
+      "quantity": 1500,
+      "unit_price": 12.50,
+      "reorder_level": 200
+    },
+    {
+      "sku": "FOOD-003",
+      "name": "Organic Green Tea",
+      "category": "Food & Beverage",
+      "quantity": 800,
+      "unit_price": 8.99,
+      "reorder_level": 100
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company name="TechCorp">
+  <department name="Engineering">
+    <employee id="E001">
+      <name>Alice Johnson</name>
+      <role>Senior Developer</role>
+      <salary>95000</salary>
+      <email>alice@techcorp.com</email>
+      <email>abc@techcorp.com</email>
+    </employee>
+    <employee id="E002">
+      <name>Bob Smith</name>
+      <role>DevOps Engineer</role>
+      <salary>88000</salary>
+      <email>bob@techcorp.com</email>
+    </employee>
+  </department>
+  <department name="Marketing">
+    <employee id="E003">
+      <name>Carol White</name>
+      <role>Marketing Manager</role>
+      <salary>82000</salary>
+      <email>carol@techcorp.com</email>
+    </employee>
+  </department>
+</company>
