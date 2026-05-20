@@ -10,7 +10,7 @@
     </employee>
     <employee id="E002">
       <name>Bob Smith</name>
-      <role>DevOps Engineer</role>
+      <role>Java Developer</role>
       <salary>88000</salary>
       <email>bob@techcorp.com</email>
     </employee>
