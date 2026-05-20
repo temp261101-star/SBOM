@@ -6,7 +6,6 @@
       <role>Senior Developer</role>
       <salary>95000</salary>
       <email>alice@techcorp.com</email>
-      <email>abc@techcorp.com</email>
     </employee>
     <employee id="E002">
       <name>Bob Smith</name>
