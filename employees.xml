@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<company name="TechCorp">
-  <department name="Engineering">
-    <employee id="E001">
-      <name>Alice Johnson</name>
-      <role>Product Manager</role>
-      <salary>100000</salary>
-      <email>alice@techcorp.com</email>
-      <contact>9087654378</contact>
-    </employee>
-    <employee id="E002">
-      <name>Bob Smith</name>
-      <role>Java Developer</role>
-      <salary>88000</salary>
-      <email>bob@techcorp.com</email>
-    </employee>
-  </department>
-  <department name="Marketing">
-    <employee id="E003">
-      <name>black White</name>
-      <role>Sale Manager</role>
-      <salary>10000</salary>
-      <contact>8569423657</contact>
-    </employee>
-  </department>
-</company>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.example.model">
+    
+    <class name="Employee" table="EMPLOYEES">
+        
+        <id name="id" column="EMP_ID" type="long">
+            <generator class="identity"/>
+        </id>
+        
+        <property name="firstName" column="FIRST_NAME" 
+                  type="string" length="50" not-null="true"/>
+        
+        <property name="lastName" column="LAST_NAME" 
+                  type="string" length="50" not-null="true"/>
+        
+        <property name="email" column="EMAIL" 
+                  type="string" unique="true"/>
+
+        <property name="emp_salary" column="emp_salary" type="float"/>
+
+        <property name="emp_address" column="emp_address" type="varchar"/>
+        
+        
+    </class>
+    
+</hibernate-mapping>
