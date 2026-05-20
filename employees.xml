@@ -19,7 +19,7 @@
     <employee id="E003">
       <name>black White</name>
       <role>Marketing Manager</role>
-      <salary>82000</salary>
+      <salary>10000</salary>
       <contact>8569423657</contact>
     </employee>
   </department>
