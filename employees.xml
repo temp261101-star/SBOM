@@ -11,7 +11,7 @@
             <generator class="identity"/>
         </id>
         
-        <property name="firstName" column="FIRST_NAME" 
+        <property name="emp_name" column="emp_name" 
                   type="string" length="50" not-null="true"/>
         
         <property name="email_address" column="EMAIL_ADDRESS" 
