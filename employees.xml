@@ -5,7 +5,7 @@
 
 <hibernate-mapping package="com.example.model">
     
-    <class name="emp_master" table="emp_master">
+    <class name="emp" table="emp">
         
         <id name="id" column="EMP_ID" type="long">
             <generator class="identity"/>
