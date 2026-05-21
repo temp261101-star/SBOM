@@ -19,7 +19,7 @@
 
         <property name="emp_salary" column="emp_salary" type="Integer"/>
 
-        <property name="emp_address" column="emp_address" type="varchar"/>
+        <property name="emp_address" column="emp_address" type="string"/>
 
         <property name="emp_contact" column="emp_contact" type="varchar"/>
 
