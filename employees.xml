@@ -17,7 +17,7 @@
         <property name="lastName" column="LAST_NAME" 
                   type="string" length="50" not-null="true"/>
         
-        <property name="email" column="EMAIL" 
+        <property name="email_address" column="EMAIL_ADDRESS" 
                   type="string" unique="true"/>
 
         <property name="emp_salary" column="emp_salary" type="float"/>
