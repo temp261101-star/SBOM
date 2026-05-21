@@ -14,8 +14,7 @@
         <property name="firstName" column="FIRST_NAME" 
                   type="string" length="50" not-null="true"/>
         
-        <property name="lastName" column="LAST_NAME" 
-                  type="string" length="50" not-null="true"/>
+       
         
         <property name="email_address" column="EMAIL_ADDRESS" 
                   type="string" unique="true"/>
