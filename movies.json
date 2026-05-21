@@ -3,7 +3,7 @@
   "columns": [
     {
       "name": "STUDENT_ID",
-      "type": "Integer"
+      "type": "Long"
     },
     {
       "name": "student_name",
