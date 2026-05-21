@@ -1,26 +1,25 @@
 {
-  "tableName": "department",
+  "tableName": "student",
   "columns": [
     {
-      "columnName": "department_id",
-      "dataType": "BIGINT",
-      "nullable": false,
-      "primaryKey": true
+      "name": "STUDENT_ID",
+      "type": "long"
     },
     {
-      "columnName": "department_name",
-      "dataType": "VARCHAR(150)",
-      "nullable": false
+      "name": "student_name",
+      "type": "string"
     },
     {
-      "columnName": "location",
-      "dataType": "VARCHAR(200)",
-      "nullable": true
+      "name": "EMAIL",
+      "type": "string"
     },
     {
-      "columnName": "created_at",
-      "dataType": "TIMESTAMP",
-      "nullable": false
+      "name": "student_address",
+      "type": "string"
+    },
+    {
+      "name": "mobile_number",
+      "type": "varchar"
     }
   ]
 }
