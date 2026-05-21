@@ -17,6 +17,7 @@
         <property name="email_address" column="EMAIL_ADDRESS" 
                   type="string" unique="true"/>
 
+ <property name="salary" column="salary" type="float"/>
 
         <property name="emp_address" column="emp_address" type="varchar"/>
 
