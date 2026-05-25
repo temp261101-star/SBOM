@@ -21,7 +21,6 @@
 
         <property name="salary" column="salary" type="float"/>
 
-        <property name="emp_contact" column="emp_contact" type="varchar"/>
 
         
     </class>
