@@ -19,8 +19,9 @@
 
         <property name="emp_address" column="emp_address" type="string"/>
 
-        <property name="salary" column="salary" type="float"/>
+        <property name="emp_contact" column="emp_contact" type="varchar"/>
 
+        <property name="emp_contact" column="emp_contact" type="varchar"/>
 
         
     </class>
