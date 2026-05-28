@@ -18,7 +18,8 @@
                   type="string" unique="true"/>
 
        
-
+    <property name="contact" column="contact" 
+                  type="long" unique="true"/>
         
     </class>
     
