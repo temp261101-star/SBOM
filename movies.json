@@ -20,6 +20,10 @@
     {
       "name": "mobile_number",
       "type": "varchar"
+    },
+     {
+      "name": "pincode",
+      "type": "Long"
     }
   ]
 }
